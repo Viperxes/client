@@ -1,0 +1,22 @@
+{
+    "name": "viperxes/client",
+    "description": "Rest recruitment task (client)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viperxes",
+            "email": "viperxes@viperxes.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Viperxes\\Client\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "laravel/framework": "5.5.*",
+        "laravelcollective/html": "^5.5"
+    }
+}
